@@ -1,0 +1,48 @@
+.sec1{
+    margin: 60px 160px;
+    padding: 40px;
+    width: 100%;
+}
+.img1{
+    float: left;
+    padding-right: 80px;
+    padding-left: 160px;
+    width: 20%;
+}
+.img1:hover,.img2:hover,.img3:hover{
+    transform: scale(1.2);
+}
+.sec2{
+    margin: 150px 280px;
+    padding: 40px 20px ;
+   
+}
+.img2{
+    float: right;
+    padding: 0%;
+    margin-right: 140px;
+    width: 35%;
+    padding-left: 60px;
+    margin-top: 10px;
+}
+.sec3{
+    margin: 70px 100px;
+    padding: 40px;
+    width: 100%;
+}
+.img3{
+   
+    padding-right: 80px;
+    float: left;
+    padding-left: 160px;
+    width: 25%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+        margin: 120px;
+        padding: 40px;
+}
+.one:hover,.two:hover,.three:hover{
+    transform: scale(1);
+}
